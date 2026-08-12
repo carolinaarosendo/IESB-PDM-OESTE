@@ -24,7 +24,7 @@ git checkout -b feature/pratica03
    Se ainda não existir app aqui, crie com `npx create-expo-app@latest` (como nas práticas anteriores) **ou** copie a base da Prática 02 e continue evoluindo.
 
 ```bash
-npm install
+npm installcd
 npx expo start
 ```
 
