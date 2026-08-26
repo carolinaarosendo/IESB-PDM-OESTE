@@ -13,7 +13,6 @@ export default function App() {
     setMetas([...MetaList, inputMetaText]);
   }
 
-
   return (
     <View style={styles.mainContainer}>
 
