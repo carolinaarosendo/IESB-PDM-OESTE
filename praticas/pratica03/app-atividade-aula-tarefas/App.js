@@ -1,14 +1,14 @@
 
 import { StyleSheet, View } from 'react-native';
-import MetaList from './components/MetaList';
 import { useState } from 'react';
 import MetaInput from './components/MetaInput';
+import MetaList from './components/MetaList';
 
 export default function App() {
   const [metas, setMetas] = useState([]);
 
   function adicionarMetaHandler(inputMeta) {
-    setMetas([...MetaList, inputMeta]);       
+    setMetas([...metas, inputMeta]);       
   }     
 
   return (
@@ -34,7 +34,6 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column'
   },
-
 
   metaContainer: {
     flex: 10

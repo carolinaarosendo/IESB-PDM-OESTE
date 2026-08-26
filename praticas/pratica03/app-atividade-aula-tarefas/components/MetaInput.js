@@ -1,5 +1,6 @@
+import { useState } from 'react';
 import { Button, StyleSheet, TextInput, View } from 'react-native';
-import { StyleSheet } from "react-native";
+import {rotulo_btn_cadastro_meta, rotulo_input_meta} from '../mensagens';
 
 function MetaInput(props) {
     const [inputMetaText, setInputMetaText] = useState('');
