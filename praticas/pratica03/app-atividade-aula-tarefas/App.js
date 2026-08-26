@@ -9,13 +9,13 @@ import MetaInput from './components/MetaInput';
 export default function App() {
   const [metas, setMetas] = useState([]);
 
-  function adicionarMetaHandler() {
-    setMetas([...MetaList, inputMetaText]);
-  }
+  function adicionarMetaHandler(inputMeta) {
+    setMetas([...MetaList, inputMeta]);       
+  }     
 
   return (
     <View style={styles.mainContainer}>
-
+      <MetaInput onAddMeta={adicionarMetaHandler} />
       <View style={styles.metaContainer}>
         <MetaList array={metas} />
       </View>
