@@ -1,5 +1,5 @@
 import { Pressable, StyleSheet } from "react-native";
-import { ScrollView, Text } from "react-native-web";
+import { ScrollView, Text, View } from "react-native-web";
 
 function MetaList(props) {
     return (
